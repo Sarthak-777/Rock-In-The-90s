@@ -13,7 +13,7 @@ function MusicPage() {
 
   if (playlistFetching === true) {
     return (
-      <div className="container mx-auto my-20 ">
+      <div className="container mx-auto mt-10">
         <p className="font-semibold text-2xl text-zinc-200">
           Playlist Loading...
         </p>
@@ -21,7 +21,7 @@ function MusicPage() {
     );
   }
   return (
-    <div className="container mx-auto my-20 ">
+    <div className="container mx-auto mt-10">
       <div className="flex m-8 shadow-[0px_0px_2px_0px] shadow-zinc-400 py-3">
         <img
           src={playlistInfo?.images[0].url}

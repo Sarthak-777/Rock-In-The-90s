@@ -7,6 +7,7 @@ module.exports = {
         mainOrange: "#F3871D",
         secondaryOrange: "#E6AA65",
         darkModeBlue: "#611CD1",
+        brown: "#6C3A2C",
       },
     },
   },

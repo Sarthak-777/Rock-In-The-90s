@@ -2,7 +2,6 @@ import React from "react";
 import useCards from "../hooks/use-cards";
 import SingleCard from "./singleCard";
 import { useGetFifteenUsersQuery } from "../services/randomUsersApi";
-import Youtube from "react-youtube";
 
 function MainPage() {
   const { cards } = useCards();
